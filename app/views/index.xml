@@ -1,0 +1,15 @@
+<Alloy>
+	<NavigationWindow platform="ios">
+		<Window title="Leaderboard" class="container">
+			<ListView id="list" onItemclick="onItemclick">
+				<Templates>
+					<ItemTemplate name="player"> 
+						<Label bindId="name" id="nameLabel"></Label>
+						<Label bindId="score" id="scoreLabel"></Label>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="players"></ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

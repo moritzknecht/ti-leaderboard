@@ -1,0 +1,9 @@
+"#nameLabel": {
+	left:25
+},
+"#scoreLabel": {
+	right:20,
+	font: {
+		fontWeight:"bold"
+	}
+}

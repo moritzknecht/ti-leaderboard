@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1101.0001,"key":"Window","style":{statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,}},{"isId":true,"priority":100000.0002,"key":"nameLabel","style":{left:25,}},{"isId":true,"priority":100000.0003,"key":"scoreLabel","style":{right:20,font:{fontWeight:"bold",},}}];
